@@ -1,0 +1,9 @@
+# Q4
+# program to count number of digits in a number
+n = int(input("Enter a number: "))
+temp = n
+count = 0
+while temp > 0:
+    temp //= 10
+    count += 1
+print("Number of digits in", n, "is", count)
